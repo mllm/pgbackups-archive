@@ -13,7 +13,7 @@ Gem::Specification.new do |s|
   s.description = %q{A means of automating Heroku's pgbackups and archiving them to Amazon S3 via the fog gem.}
 
   s.add_dependency "bundler", ">= 1.2.3"
-  s.add_dependency "fog",     "~> 1.15.0"
+  s.add_dependency "fog",     "~> 1.14.0"
   s.add_dependency "heroku",  "~> 2.34.0"
   s.add_dependency "rake",    ">= 0.9.2.2"
 
