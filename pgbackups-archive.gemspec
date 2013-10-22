@@ -12,10 +12,10 @@ Gem::Specification.new do |s|
   s.summary     = %q{A means of automating Heroku's pgbackups and archiving them to Amazon S3 via the fog gem.}
   s.description = %q{A means of automating Heroku's pgbackups and archiving them to Amazon S3 via the fog gem.}
 
-  s.add_dependency "bundler", ">= 1.2.3"
-  s.add_dependency "fog",     "~> 1.14.0"
+  s.add_dependency "bundler", "~> 1.3.5"
+  s.add_dependency "fog",     "~> 1.15.0"
   s.add_dependency "heroku",  "~> 2.34.0"
-  s.add_dependency "rake",    ">= 0.9.2.2"
+  s.add_dependency "rake",    "~> 10.1.0"
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
